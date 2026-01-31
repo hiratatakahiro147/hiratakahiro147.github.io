@@ -1,1 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background: #fff;
+  color: #111;
+  line-height: 1.8;
+}
+
+/* header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+.header h1 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.header nav a {
+  margin-left: 32px;
+  text-decoration: none;
+  color: #111;
+  font-size: 14px;
+}
+
+/* hero */
+.hero {
+  padding: 180px 80px;
+}
+
+.hero h2 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* section */
+.section {
+  padding: 120px 80px;
+  max-width: 900px;
+}
+
+.section h3 {
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+
+.section ul {
+  list-style: none;
+}
+
+.section li {
+  margin-bottom: 12px;
+}
+
+/* footer */
+.footer {
+  padding: 80px 80px;
+  font-size: 12px;
+  color: #666;
+}
